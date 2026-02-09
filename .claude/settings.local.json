@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node --version:*)",
+      "Bash(npm --version:*)",
+      "Bash(npx:*)",
+      "WebSearch",
+      "Bash(npm install:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nfeat: scaffold Next.js project with shadcn/ui and dependencies\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nfeat: add alpine theme, Globe/DottedSurface components, and API layer\n\n- Configure alpine color palette with Outfit font and dark mode\n- Add Globe \\(cobe\\) and DottedSurface \\(three.js\\) UI components\n- Create types, mock data generator, and API routes for mountains/missions/auth\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git commit:*)",
+      "Bash(curl:*)",
+      "Bash(python3:*)",
+      "Bash(kill:*)",
+      "Bash(npm run dev:*)",
+      "Bash(lsof:*)",
+      "Bash(xargs:*)"
+    ]
+  }
+}
